@@ -1,0 +1,7 @@
+﻿CREATE TABLE Queries(
+	QueryID INT IDENTITY PRIMARY KEY,
+	Input VARCHAR(MAX),
+	[Output] VARCHAR(MAX),
+	UserID INT,
+	dt_Created DATETIME
+)
